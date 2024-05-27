@@ -1,11 +1,9 @@
-import './App.css';
-import { Game } from './views/game/Game';
+import "./App.css";
+import { Letras } from "./views/game/Letras";
 
 function App() {
   return (
-    <div className="App">
-      <Game className="App" />
-    </div>
+    <Letras />
   );
 }
 
